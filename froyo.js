@@ -5,10 +5,15 @@ const carry = userinputer.split(',')
 const result = {};
 
 for (const flavor in array) {
+
 if(result[flavor]){
-    result[flavor] += 1;
+
+    result[flavor] == result[falvor] + 1;
+
 } else {
+
     result[flavor] = 1;
+
 }
 }
 console.table(result);
